@@ -27,6 +27,7 @@ body {
 
 .footer {
     flex-shrink: 0;
+    padding-top: 30px;
 }
 
 /* Universal Font and Color Styles */
@@ -92,4 +93,7 @@ p, a {
 
 /* Footer Section */
 
-
+#medialinks a {
+    display: block;
+    padding-bottom: 10px;
+}
