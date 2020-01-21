@@ -96,6 +96,7 @@ p, a {
 #medialinks a {
     display: block;
     padding-bottom: 10px;
+    font-size: 14px;
 }
 
 /* Index - Hero Image */
