@@ -103,7 +103,7 @@ p, a {
 #hero-image{
     padding-top: 50px;
     margin: 10% auto;
-    height: 500px;
+    height: 450px;
     width: 90%;
     background: url("../images/cheeseburger-and-fries.jpg") no-repeat center center;
     max-width: 100%;
@@ -114,7 +114,7 @@ p, a {
     }
     
 #hero-outer {
-    height: 550px;
+    height: 500px;
     width: 100%;
     overflow: hidden;
     position: relative;
@@ -141,8 +141,41 @@ p, a {
     transform: translate(-50%, -50%);
 }
 
+
+
+#cover-text h2 {
+    font-size: 2rem;
+    font-weight: 700;
+}
+
+#cover-text h3 {
+    font-size: 1.5rem;
+}
+
 /* Index Content  */
+
+.source, .fresh {
+padding-top: 20px
+}
+
+.source h2, .fresh h2 {
+padding-top: 50px
+}
+
 
 .button-menu {
 padding-top: 30px;
 }
+
+/* Media Queries
+
+    Notes - remove padding from the following when sizing for mobile
+.source, .fresh {
+    padding-top: 20px
+
+    Adjust Navbar for ipad on landscape as they break
+}
+
+ */
+
+ 
