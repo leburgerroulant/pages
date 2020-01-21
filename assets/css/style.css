@@ -76,7 +76,7 @@ p, a {
     color: #f4483a;
 }
 
-/* Header Logo */
+/* Logo */
 
 .logo {
     background-image: url(../images/BurgerLogo.png);
@@ -88,4 +88,8 @@ p, a {
     background-size: contain;
     text-align: center;
 }
+
+
+/* Footer Section */
+
 
