@@ -63,13 +63,13 @@ p, a {
     padding: 10px;
 }
 
-/* Navbar Link Styling */
+/* Navbar & Button Link Styling */
 
 .nav-link {
     color: #00838e;
 }
 
-.nav-link:hover{
+.nav-link:hover {
     color: #f4483a;
 }
 
@@ -156,16 +156,26 @@ p, a {
 /* Index Content  */
 
 .source, .fresh {
-padding-top: 20px
+    padding-top: 20px;
 }
 
 .source h2, .fresh h2 {
-padding-top: 50px
+    padding-top: 50px;
 }
 
 
 .button-menu {
-padding-top: 30px;
+    padding-top: 30px;
+}
+
+.btn-menu {
+    background-color: #00838e;
+    
+}
+
+.btn-menu span {
+    font-size: 1.25rem;
+    color: #d8f4ef;
 }
 
 /* Media Queries
