@@ -1,0 +1,27 @@
+@import url('https://fonts.googleapis.com/css?family=Ibarra+Real+Nova|Roboto&display=swap');
+
+/* Universal Styles */
+
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    text-align: center;
+    font-size: 18px;
+  }
+
+h1, h2, h3, h4, h5 {
+    font-family: 'Ibarra Real Nova', sans-serif;
+    color: #00838e;
+}
+
+p, a {
+    font-family: 'Roboto', serif;
+    color: #3ea9c0;
+}
+
+body {
+    background-color: black;
+    opacity: 0.9;
+}
+
