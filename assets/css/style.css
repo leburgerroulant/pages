@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css?family=Ibarra+Real+Nova|Roboto&display=swap');
 
-/* Universal Styles */
+/* Universal Body */
 
 *{
     margin: 0;
@@ -8,7 +8,28 @@
     border: 0;
     text-align: center;
     font-size: 18px;
+}
+
+html, body {
+    height: 100%;
   }
+
+body {
+    display: flex;
+    flex-direction: column;
+    background-color: black;
+    opacity: 0.9;
+}
+
+.content {
+    flex: 1 0 auto;
+}
+
+.footer {
+    flex-shrink: 0;
+}
+
+/* Universal Font and Color Styles */
 
 h1, h2, h3, h4, h5 {
     font-family: 'Ibarra Real Nova', sans-serif;
@@ -18,11 +39,6 @@ h1, h2, h3, h4, h5 {
 p, a {
     font-family: 'Roboto', serif;
     color: #3ea9c0;
-}
-
-body {
-    background-color: black;
-    opacity: 0.9;
 }
 
 /* Navbar Section */
