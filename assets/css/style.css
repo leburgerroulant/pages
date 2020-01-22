@@ -77,7 +77,7 @@ p, a {
     color: #f4483a;
 }
 
-.btn:hover {
+.btn-primary:hover {
     color: red;
 }
 
@@ -159,6 +159,14 @@ p, a {
 
 /* Index Content  */
 
+.front-container {
+    display:inline;
+}
+
+.front-page {
+    align-items: center;
+}
+
 .source, .fresh {
     padding-top: 20px;
 }
@@ -172,12 +180,12 @@ p, a {
     padding-top: 30px;
 }
 
-.btn-menu {
+.btn-primary {
     background-color: #00838e;
     
 }
 
-.btn-menu span {
+.btn-primary span {
     font-size: 1.25rem;
     color: #d8f4ef;
 }
