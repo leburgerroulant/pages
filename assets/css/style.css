@@ -12,6 +12,8 @@
 
 html, body {
     height: 100%;
+    width: 100%;
+    overflow-x: hidden;
   }
 
 body {
@@ -167,11 +169,12 @@ p, a {
     align-items: center;
 }
 
-.source, .fresh {
+.left, .right {
     padding-top: 20px;
+    width: 120vw;
 }
 
-.source h2, .fresh h2 {
+.left h2, .right h2 {
     padding-top: 50px;
 }
 
@@ -188,6 +191,28 @@ p, a {
 .btn-primary span {
     font-size: 1.25rem;
     color: #d8f4ef;
+}
+
+/* About Conent */
+
+.img-container {
+    max-height: 450px;
+    width: 100%;
+    overflow: hidden;
+}
+
+#about-img {
+    padding-top: 50px;
+    margin: 10% auto;
+    max-height: 450px;
+    min-height: 300px;
+    max-width: 450px;
+    min-width: 250px;
+    background: url("../images/two-brothers.jpg") no-repeat center center;
+    background-size: cover;
+    border-radius: 50%;
+
+    
 }
 
 /* Media Queries
