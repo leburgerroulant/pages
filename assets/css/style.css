@@ -52,6 +52,16 @@ p, a {
     color: #3ea9c0;
 }
 
+.veggie {
+    color: green;
+    font-weight: 900;
+}
+
+.spicy {
+    color: red;
+    font-weight: 900;
+}
+
 /* Navbar Section */
 
 .menu-bar {
@@ -252,12 +262,10 @@ p, a {
     justify-content: center;
 }
 
-.menu-none th {
-    border-bottom: none;
-}
-
-.menu-items tr {
-    border-bottom: 1px solid #3ea9c0;
+.legend {
+    display: flex;
+    flex-flow: row;
+    justify-content: center;
 }
 
 .menu-button {
@@ -273,10 +281,10 @@ p, a {
     background-color: #d8f4ef;
 }
 
-.nav-pills .nav-link {
+/* .nav-pills .nav-link {
     background-color: #3ea9c0;
     margin: 20px;
-}
+} */
 
 /* Menu Display */
 
@@ -290,11 +298,19 @@ p, a {
   }
 
 
-  #mains {
+  #salads {
     display: none;
   }
 
-  #mains:target {
+  #salads:target {
+    display: flex;
+  }
+
+  #burgers {
+    display: none;
+  }
+
+  #burgers:target {
     display: flex;
   }
 
