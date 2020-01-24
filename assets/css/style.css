@@ -265,10 +265,20 @@ p, a {
 }
 
 .menu-header {
+    margin-top: 20px;
     margin-bottom: 20px;
 }
 
-/* Menu Displau */
+.card-header {
+    background-color: #d8f4ef;
+}
+
+.nav-pills .nav-link {
+    background-color: #3ea9c0;
+    margin: 20px;
+}
+
+/* Menu Display */
 
 
   #starters {
