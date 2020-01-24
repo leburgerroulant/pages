@@ -126,7 +126,7 @@ p, a {
 }
 
 .header-img-outer {
-    height: 75vh;
+    height: 65vh;
     width: 100%;
     overflow: hidden;
     position: relative;
@@ -141,7 +141,15 @@ p, a {
     transform: translate(0%, -40%); 
 }
 
-/* Universal Break */
+/* Universal Breaks & Bottom Button */
+
+#cont-break {
+    min-height: 5px;
+    max-height: 10px;
+    background-color: #d8f4ef;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
 
 #break {
     background-color: #d8f4ef;
@@ -158,6 +166,10 @@ p, a {
 
 #break h4 {
     padding-bottom: 20px;
+}
+
+.button-menu {
+    margin-bottom: 15px;
 }
 
 /* Rest of Content */
@@ -200,4 +212,28 @@ p, a {
 .card-img-top {
     object-fit: cover;
     max-height: 350px;
+}
+
+.center-quote {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+#c-quote {
+    background-color: #fff;
+    border-radius: 5px;
+}
+
+.front-page {
+    background-color: #d8f4ef;
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
+
+.left, .right {
+    padding-top: 10px;
+    display: flex;
+    flex-flow: column;
 }
