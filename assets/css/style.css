@@ -69,7 +69,6 @@ p, a {
 
 .nav-item a, i {
     font-size: 1.5rem;
-    letter-spacing: 2%;
     padding: 10px;
 }
 
@@ -237,3 +236,64 @@ p, a {
     display: flex;
     flex-flow: column;
 }
+
+/* Menu  */
+
+.menu-img-inner {
+    margin: 10% auto;
+    height: 100vh;
+    max-width: 100%;;
+    background: url("../images/Burgers-menu.jpg") no-repeat center center;
+    background-size: cover;
+    transform: translate(0%, -30%); 
+}
+
+.menu-items {
+    justify-content: center;
+}
+
+.menu-none th {
+    border-bottom: none;
+}
+
+.menu-items tr {
+    border-bottom: 1px solid #3ea9c0;
+}
+
+.menu-button {
+    border-color: #3ea9c0;
+}
+
+.menu-header {
+    margin-bottom: 20px;
+}
+
+/* Menu Displau */
+
+
+  #starters {
+    display: none;
+  }
+
+  #starters:target {
+    display: flex;
+  }
+
+
+  #mains {
+    display: none;
+  }
+
+  #mains:target {
+    display: flex;
+  }
+
+
+#desserts {
+    display: none;
+  }
+
+  #desserts:target {
+    display: flex;
+  }
+  
