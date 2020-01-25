@@ -284,11 +284,6 @@ p, a {
     background-color: #d8f4ef;
 }
 
-/* .nav-pills .nav-link {
-    background-color: #3ea9c0;
-    margin: 20px;
-} */
-
 /* Menu Display */
 
 
@@ -325,4 +320,14 @@ p, a {
   #desserts:target {
     display: flex;
   }
-  
+
+/* Job Section */
+
+.jobs-img-inner {
+    margin: 10% auto;
+    height: 100vh;
+    max-width: 100%;;
+    background: url("../images/Jobs.jpg") no-repeat center center;
+    background-size: cover;
+    transform: translate(0%, -30%); 
+}
