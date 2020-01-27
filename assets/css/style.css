@@ -331,3 +331,16 @@ p, a {
     background-size: cover;
     transform: translate(0%, -30%); 
 }
+
+.open-jobs {
+      display: flex;
+      justify-content: center;
+}
+
+.job-contact {
+    margin-bottom: 10px;
+}
+
+.carousel-indicators li {
+    background-color: #00838e;
+}
