@@ -344,3 +344,19 @@ p, a {
 .carousel-indicators li {
     background-color: #00838e;
 }
+
+/* Contact Section */
+
+.contact-img-inner {
+    margin: 10% auto;
+    height: 100vh;
+    max-width: 100%;;
+    background: url("../images/Contact-us.jpg") no-repeat center center;
+    background-size: cover;
+    transform: translate(0%, -30%); 
+}
+
+#map {
+    width: 50%;
+    height: 250px;
+}

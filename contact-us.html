@@ -57,13 +57,13 @@
                                 <a class="nav-link" href="about-us.html"><i class="fas fa-users"></i> About Us</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link" href="menu.html"><i class="fas fa-hamburger"></i> Menu <span class="sr-only">(current)</span></a>
+                                <a class="nav-link" href="menu.html"><i class="fas fa-hamburger"></i> Menu</a>
                             </li>
                             <li class="nav-item">
                                 <a class="nav-link" href="jobs.html"><i class="fas fa-tshirt"></i> Jobs</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link active" href="contact-us.html"><i class="fas fa-thumbtack"></i> Find Us</a>
+                                <a class="nav-link active" href="contact-us.html"><i class="fas fa-thumbtack"></i> Find Us <span class="sr-only">(current)</span></a>
                             </li>
                         </ul>
                     </div>
@@ -78,6 +78,61 @@
         <main>
             <div class="container-fluid px-0">
               
+              <!-- Hero Image -->
+                <div class="row">
+                    <div class="col-md-12">
+                        <div class="header-img-outer">
+                            <div class="contact-img-inner"></div>
+                        </div>
+                        <div class=" jumbotron-fluid">
+                            <div class="container-fluid" id="cover-text">
+                                <h1 class="display-4">Get in Touch</h1>
+                                <p class="lead">Looking to book a table or speak to us about something else?</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Page break -->
+
+                <div class="container-fluid">
+                    <div class="row">
+                        <div class="col-md-12" style="padding: 0;">
+                            <div id="cont-break">
+                            </div>
+                        </div>
+                    </div>
+                
+                <div class="container-fluid">
+                    <div class="row">
+                        <div class="col-md-6">
+                            <div id="map">                        
+                            </div>
+
+                            <script>
+                                // Initialize and add the map
+                                function initMap() {
+                                // The location of Uluru
+                                var uluru = {lat: 51.235172, lng: -0.573793};
+                                // The map, centered at Uluru
+                                var map = new google.maps.Map(
+                                    document.getElementById('map'), {zoom: 4, center: uluru});
+                                // The marker, positioned at Uluru
+                                var marker = new google.maps.Marker({position: uluru, map: map});
+                                }
+                                    </script>
+                                    <script async defer
+src="https://maps.googleapis.com/maps/api/js?key=AIzaSyASEiU2syRMTpCzuRJX1HpScxXs7A_gvGo&callback=initMap">
+</script>
+                            
+                        </div>
+                        
+                        <div class="col-md-6">
+                        
+                        </div>
+
+                    </div>
+                </div>
                 
             </div>
         </main>
