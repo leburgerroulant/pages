@@ -173,7 +173,7 @@ i {
 
 /* Universal Breaks & Bottom Button */
 
-#cont-break {
+.cont-break {
 	min-height: 5px;
 	max-height: 10px;
 	background-color: #d8f4ef;
@@ -396,6 +396,10 @@ i {
 .contact {
 	display: flex;
 	flex-flow: column;
+}
+
+.contact p {
+    margin: 0;
 }
 
 tbody tr td {
