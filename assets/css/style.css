@@ -2,361 +2,406 @@
 
 /* Resetting Styles  */
 
-*{
-    margin: 0;
-    padding: 0;
-    border: 0;
-    text-align: center;
-    font-size: 16px;
+* {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	text-align: center;
+	font-size: 16px;
 }
 
-html, body {
-    height: 100%;
-    width: 100%;
-    overflow-x: hidden;
-  }
+html,
+body {
+	height: 100%;
+	width: 100%;
+	overflow-x: hidden;
+}
 
 body {
-    display: flex;
-    flex-direction: column;
-    background-color: black;
-    opacity: 0.9;
+	display: flex;
+	flex-direction: column;
+	background-color: black;
+	opacity: 0.9;
 }
 
 .content {
-    flex: 1 0 auto;
+	flex: 1 0 auto;
 }
 
 .footer {
-    flex-shrink: 0;
-    padding-top: 30px;
+	flex-shrink: 0;
+	padding-top: 30px;
 }
+
 
 /* Font Styling */
 
 #cover-text h1 {
-    font-weight: 600;
+	font-weight: 600;
 }
 
 #cover-text p {
-    font-weight: 300;
+	font-weight: 300;
 }
 
-h1, h2, h3, h4, h5 {
-    font-family: 'Ibarra Real Nova', sans-serif;
-    color: #00838e;
+h1,
+h2,
+h3,
+h4,
+h5 {
+	font-family: 'Ibarra Real Nova', sans-serif;
+	color: #00838e;
 }
 
-p, a {
-    font-family: 'Roboto', serif;
-    color: #3ea9c0;
+p,
+a {
+	font-family: 'Roboto', serif;
+	color: #3ea9c0;
 }
 
 .veggie {
-    color: green;
-    font-weight: 900;
-    font-size: 1rem;
+	color: green;
+	font-weight: 900;
+	font-size: 1rem;
 }
 
 .spicy {
-    color: red;
-    font-weight: 900;
-    font-size: 1rem;
+	color: red;
+	font-weight: 900;
+	font-size: 1rem;
 }
+
 
 /* Navbar Section */
 
 .menu-bar {
-    min-height: 10%;
-    background-color: #d8f4ef;
+	min-height: 10%;
+	background-color: #d8f4ef;
 }
 
 .navbar-toggler {
-    color: #00838e;
+	color: #00838e;
 }
 
 .navbar-toggler i {
-    font-size: 2rem;
+	font-size: 2rem;
 }
 
-.nav-item a, i {
-    font-size: 1.5rem;
-    padding: 10px;
+.nav-item a,
+i {
+	font-size: 1.5rem;
+	padding: 10px;
 }
 
 .logo {
-    width: auto;
+	width: auto;
 }
 
 .logo-img {
-    vertical-align: baseline;
-    object-fit: contain;
-    height: 90px;
+	vertical-align: baseline;
+	object-fit: contain;
+	height: 90px;
 }
+
+.table-text {
+	font-family: 'Roboto', serif;
+	color: #3ea9c0;
+}
+
 
 /* Navbar & Button Link Styling */
 
 .nav-link {
-    color: #00838e;
+	color: #00838e;
 }
 
 .nav-link:hover {
-    color: #f4483a;
+	color: #f4483a;
 }
 
 .active {
-    color: #f4483a;
+	color: #f4483a;
 }
+
 
 /* Footer Section */
 
-.foot-links a{
-    display: inline-block;
-    padding: 20px;
+.foot-links a {
+	display: inline-block;
+	padding: 20px;
 }
 
 .footer {
-    padding-top: 20px;
+	padding-top: 20px;
 }
 
 .social-links {
-    padding: 15px;
+	padding: 15px;
 }
+
 
 /* Main Section - Image/Cover Text */
 
-#cover-text{
-    width: 100%;
-    height: auto;
-    background-color: black;
-    opacity: 0.7;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
+#cover-text {
+	width: 100%;
+	height: auto;
+	background-color: black;
+	opacity: 0.7;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
 }
 
 .header-img-outer {
-    height: 65vh;
-    width: 100%;
-    overflow: hidden;
-    position: relative;
+	height: 65vh;
+	width: 100%;
+	overflow: hidden;
+	position: relative;
 }
 
 .header-img-inner {
-    margin: 10% auto;
-    height: 100vh;
-    max-width: 100%;;
-    background: url("../images/Burger-wide.jpg") no-repeat center center;
-    background-size: cover;
-    transform: translate(0%, -40%); 
+	margin: 10% auto;
+	height: 100vh;
+	max-width: 100%;
+	;
+	background: url("../images/Burger-wide.jpg") no-repeat center center;
+	background-size: cover;
+	transform: translate(0%, -40%);
 }
+
 
 /* Universal Breaks & Bottom Button */
 
 #cont-break {
-    min-height: 5px;
-    max-height: 10px;
-    background-color: #d8f4ef;
-    margin-top: 20px;
-    margin-bottom: 20px;
+	min-height: 5px;
+	max-height: 10px;
+	background-color: #d8f4ef;
+	margin-top: 20px;
+	margin-bottom: 20px;
 }
 
 #break {
-    background-color: #d8f4ef;
-    width: 100%;
-    height: auto;
-    margin-top: 20px;
-    margin-bottom: 20px;
-    padding: 0;
+	background-color: #d8f4ef;
+	width: 100%;
+	height: auto;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	padding: 0;
 }
 
 #break p {
-    padding-top: 20px;
+	padding-top: 20px;
 }
 
 #break h4 {
-    padding-bottom: 20px;
+	padding-bottom: 20px;
 }
 
 .button-menu {
-    margin-bottom: 15px;
+	margin-bottom: 15px;
 }
+
 
 /* Rest of Content */
 
 #cover-text h1 {
-    font-size: 2rem;
+	font-size: 2rem;
 }
 
 .mid-section {
-    padding-top: 20px;
-    margin-bottom: 20px;
+	padding-top: 20px;
+	margin-bottom: 20px;
 }
 
 .front-imgblock {
-    padding: 25px;
-    background-color: #d8f4ef;
+	padding: 25px;
+	background-color: #d8f4ef;
 }
 
-.front-img a img{
-    height: 100%;
-    width: 100%;
-    border-radius: 10px;
+.front-img a img {
+	height: 100%;
+	width: 100%;
+	border-radius: 10px;
 }
 
 .front-text {
-    padding-top: 20px;
+	padding-top: 20px;
 }
+
 
 /* About Section */
 
 .about-img-inner {
-    margin: 10% auto;
-    height: 100vh;
-    max-width: 100%;;
-    background: url("../images/two-brothers.jpg") no-repeat center center;
-    background-size: cover;
-    transform: translate(0%, -30%); 
-    /* Note: the above translate was used to center the image */
+	margin: 10% auto;
+	height: 100vh;
+	max-width: 100%;
+	;
+	background: url("../images/two-brothers.jpg") no-repeat center center;
+	background-size: cover;
+	transform: translate(0%, -30%);
+	/* Note: the above translate was used to center the image */
 }
 
 .card-img-top {
-    object-fit: cover;
-    max-height: 350px;
+	object-fit: cover;
+	max-height: 350px;
 }
 
 .center-quote {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    margin-bottom: 20px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	margin-bottom: 20px;
 }
 
 #c-quote {
-    background-color: #fff;
-    border-radius: 5px;
+	background-color: #fff;
+	border-radius: 5px;
 }
 
 .front-page {
-    background-color: #d8f4ef;
-    border-radius: 5px;
-    margin-bottom: 20px;
+	background-color: #d8f4ef;
+	border-radius: 5px;
+	margin-bottom: 20px;
 }
 
-.left, .right {
-    padding-top: 10px;
-    display: flex;
-    flex-flow: column;
+.left,
+.right {
+	padding-top: 10px;
+	display: flex;
+	flex-flow: column;
 }
+
 
 /* Menu  */
 
 .menu-img-inner {
-    margin: 10% auto;
-    height: 100vh;
-    max-width: 100%;;
-    background: url("../images/Burgers-menu.jpg") no-repeat center center;
-    background-size: cover;
-    transform: translate(0%, -30%); 
+	margin: 10% auto;
+	height: 100vh;
+	max-width: 100%;
+	;
+	background: url("../images/Burgers-menu.jpg") no-repeat center center;
+	background-size: cover;
+	transform: translate(0%, -30%);
 }
 
 .menu-items {
-    justify-content: center;
+	justify-content: center;
 }
 
 .legend {
-    display: flex;
-    flex-flow: row;
-    justify-content: center;
+	display: flex;
+	flex-flow: row;
+	justify-content: center;
 }
 
 .menu-button {
-    border-color: #3ea9c0;
+	border-color: #3ea9c0;
 }
 
 .menu-header {
-    margin-top: 20px;
-    margin-bottom: 20px;
+	margin-top: 20px;
+	margin-bottom: 20px;
 }
 
 .card-header {
-    background-color: #d8f4ef;
+	background-color: #d8f4ef;
 }
+
 
 /* Menu Display */
 
+#starters {
+	display: none;
+}
 
-  #starters {
-    display: none;
-  }
+#starters:target {
+	display: flex;
+}
 
-  #starters:target {
-    display: flex;
-  }
+#salads {
+	display: none;
+}
 
+#salads:target {
+	display: flex;
+}
 
-  #salads {
-    display: none;
-  }
+#burgers {
+	display: none;
+}
 
-  #salads:target {
-    display: flex;
-  }
-
-  #burgers {
-    display: none;
-  }
-
-  #burgers:target {
-    display: flex;
-  }
-
+#burgers:target {
+	display: flex;
+}
 
 #desserts {
-    display: none;
-  }
+	display: none;
+}
 
-  #desserts:target {
-    display: flex;
-  }
+#desserts:target {
+	display: flex;
+}
+
 
 /* Job Section */
 
 .jobs-img-inner {
-    margin: 10% auto;
-    height: 100vh;
-    max-width: 100%;;
-    background: url("../images/Jobs.jpg") no-repeat center center;
-    background-size: cover;
-    transform: translate(0%, -30%); 
+	margin: 10% auto;
+	height: 100vh;
+	max-width: 100%;
+	;
+	background: url("../images/Jobs.jpg") no-repeat center center;
+	background-size: cover;
+	transform: translate(0%, -30%);
 }
 
 .open-jobs {
-      display: flex;
-      justify-content: center;
+	display: flex;
+	justify-content: center;
 }
 
 .job-contact {
-    margin-bottom: 10px;
+	margin-bottom: 10px;
 }
 
 .carousel-indicators li {
-    background-color: #00838e;
+	background-color: #00838e;
 }
+
 
 /* Contact Section */
 
 .contact-img-inner {
-    margin: 10% auto;
-    height: 100vh;
-    max-width: 100%;;
-    background: url("../images/Contact-us.jpg") no-repeat center center;
-    background-size: cover;
-    transform: translate(0%, -30%); 
+	margin: 10% auto;
+	height: 100vh;
+	max-width: 100%;
+	;
+	background: url("../images/Contact-us.jpg") no-repeat center center;
+	background-size: cover;
+	transform: translate(0%, -30%);
 }
 
 #map {
-    width: 50%;
-    height: 250px;
+	width: 50%;
+	height: 250px;
+}
+
+.map-container {
+	display: flex;
+	justify-content: center;
+}
+
+.contact {
+	display: flex;
+	flex-flow: column;
+}
+
+tbody tr td {
+	text-align: left;
+}
+
+th {
+	text-align: left;
 }
