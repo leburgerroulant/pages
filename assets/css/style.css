@@ -1,20 +1,9 @@
-@import url('https://fonts.googleapis.com/css?family=Ibarra+Real+Nova|Roboto&display=swap');
-
-/* Resetting Styles  */
-
-* {
-	margin: 0;
-	padding: 0;
-	border: 0;
-	text-align: center;
-	font-size: 16px;
-}
+/* General Formating Styling */
 
 html,
 body {
 	height: 100%;
 	width: 100%;
-	overflow-x: hidden;
 }
 
 body {
@@ -33,16 +22,12 @@ body {
 	padding-top: 30px;
 }
 
+.center {
+    display: flex;
+    justify-content: center;
+}
 
 /* Font Styling */
-
-#cover-text h1 {
-	font-weight: 600;
-}
-
-#cover-text p {
-	font-weight: 300;
-}
 
 h1,
 h2,
@@ -50,13 +35,26 @@ h3,
 h4,
 h5 {
 	font-family: 'Ibarra Real Nova', sans-serif;
-	color: #00838e;
+    color: #145d63;
 }
 
-p,
-a {
+p {
 	font-family: 'Roboto', serif;
-	color: #3ea9c0;
+	color: #2f2323;
+}
+
+a {
+    color: #6c757d;
+    font-family: 'Roboto', serif;
+}
+
+.cover-text h1 {
+	font-weight: 600;
+}
+
+.cover-text p {
+    font-weight: 300;
+    color: #ffffffd1;
 }
 
 .veggie {
@@ -71,11 +69,15 @@ a {
 	font-size: 1rem;
 }
 
+.table-text {
+	font-family: 'Roboto', serif;
+	color: #2f2323;
+}
+
 
 /* Navbar Section */
 
 .menu-bar {
-	min-height: 10%;
 	background-color: #d8f4ef;
 }
 
@@ -94,18 +96,14 @@ i {
 }
 
 .logo {
-	width: auto;
+    width: auto;
+    margin-left: 0;
 }
 
 .logo-img {
 	vertical-align: baseline;
 	object-fit: contain;
 	height: 90px;
-}
-
-.table-text {
-	font-family: 'Roboto', serif;
-	color: #3ea9c0;
 }
 
 
@@ -123,16 +121,23 @@ i {
 	color: #f4483a;
 }
 
+/* Button Styling */
+
+.btn-info {
+    color: #2a1f1f;
+    font-weight: 600;
+}
 
 /* Footer Section */
 
 .foot-links a {
 	display: inline-block;
-	padding: 20px;
+    padding: 20px;
 }
 
 .footer {
-	padding-top: 20px;
+    padding-top: 20px;
+    text-align: center;
 }
 
 .social-links {
@@ -140,17 +145,31 @@ i {
 }
 
 
-/* Main Section - Image/Cover Text */
+/* Section/Hero Image & Text Banner Styling */
 
-#cover-text {
+.img-container {
+    padding: 0;
+}
+
+.cover-image {
+    margin: 10% auto;
+	height: 100vh;
+	max-width: 100%;
+    background-repeat: no-repeat;
+    background-position: center center;
+	background-size: cover;
+}
+
+.cover-text {
 	width: 100%;
 	height: auto;
 	background-color: black;
-	opacity: 0.7;
+	opacity: 0.8;
 	position: absolute;
 	top: 50%;
 	left: 50%;
-	transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    text-align: center;
 }
 
 .header-img-outer {
@@ -160,16 +179,47 @@ i {
 	position: relative;
 }
 
-.header-img-inner {
-	margin: 10% auto;
-	height: 100vh;
-	max-width: 100%;
-	;
-	background: url("../images/Burger-wide.jpg") no-repeat center center;
-	background-size: cover;
-	transform: translate(0%, -40%);
+/* Section/Hero Images */
+
+.index-image {
+    background-image: url("../images/Burger-wide.jpg");
+    transform: translate(0%, -40%);
 }
 
+.about-image {
+    background-image: url("../images/two-brothers.jpg");
+    transform: translate(0%, -30%);
+}
+
+
+.menu-image {
+    background-image: url("../images/Burgers-menu.jpg");
+    transform: translate(0%, -30%);
+}
+
+.contact-image {
+    background-image: url("../images/Contact-us.jpg");
+    transform: translate(0%, -40%);
+}
+
+
+.jobs-image {
+    background-image: url("../images/Jobs.jpg");
+    transform: translate(0%, -20%);
+}
+
+/* Content Sections */
+
+.mid-section {
+    padding: 0;
+    
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+.mid-bc {
+    background-color: #bdbdbd;
+}
 
 /* Universal Breaks & Bottom Button */
 
@@ -181,13 +231,14 @@ i {
 	margin-bottom: 20px;
 }
 
-#break {
-	background-color: #d8f4ef;
+.quote-holder {
+	background-color: #e0e0e0;
 	width: 100%;
 	height: auto;
 	margin-top: 20px;
 	margin-bottom: 20px;
-	padding: 0;
+    padding: 0;
+    text-align: center;
 }
 
 #break p {
@@ -199,24 +250,29 @@ i {
 }
 
 .button-menu {
-	margin-bottom: 15px;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 15px;
+    padding-top: 20px;
+    text-align: center;
 }
 
 
 /* Rest of Content */
 
-#cover-text h1 {
+.cover-text h1 {
 	font-size: 2rem;
 }
 
-.mid-section {
-	padding-top: 20px;
-	margin-bottom: 20px;
+.jumbo-logo {
+    max-width: 110px; 
+    max-height: 110px; 
+    margin: 20px auto;
 }
 
 .front-imgblock {
 	padding: 25px;
-	background-color: #d8f4ef;
+	background-color: #e0e0e0;
 }
 
 .front-img a img {
@@ -226,22 +282,17 @@ i {
 }
 
 .front-text {
-	padding-top: 20px;
+    padding-top: 20px;
+    text-align: center;
+    font-weight: 600;
+}
+
+.front-text h4 {
+    font-weight: 700;
 }
 
 
 /* About Section */
-
-.about-img-inner {
-	margin: 10% auto;
-	height: 100vh;
-	max-width: 100%;
-	;
-	background: url("../images/two-brothers.jpg") no-repeat center center;
-	background-size: cover;
-	transform: translate(0%, -30%);
-	/* Note: the above translate was used to center the image */
-}
 
 .card-img-top {
 	object-fit: cover;
@@ -266,34 +317,13 @@ i {
 	margin-bottom: 20px;
 }
 
-.left,
-.right {
-	padding-top: 10px;
-	display: flex;
-	flex-flow: column;
-}
-
 
 /* Menu  */
 
-.menu-img-inner {
-	margin: 10% auto;
-	height: 100vh;
-	max-width: 100%;
-	;
-	background: url("../images/Burgers-menu.jpg") no-repeat center center;
-	background-size: cover;
-	transform: translate(0%, -30%);
-}
-
-.menu-items {
-	justify-content: center;
-}
-
 .legend {
-	display: flex;
-	flex-flow: row;
-	justify-content: center;
+    display: flex;
+    flex-flow: row;
+    justify-content: center;
 }
 
 .menu-button {
@@ -310,52 +340,8 @@ i {
 }
 
 
-/* Menu Display */
-
-#starters {
-	display: none;
-}
-
-#starters:target {
-	display: flex;
-}
-
-#salads {
-	display: none;
-}
-
-#salads:target {
-	display: flex;
-}
-
-#burgers {
-	display: none;
-}
-
-#burgers:target {
-	display: flex;
-}
-
-#desserts {
-	display: none;
-}
-
-#desserts:target {
-	display: flex;
-}
-
 
 /* Job Section */
-
-.jobs-img-inner {
-	margin: 10% auto;
-	height: 100vh;
-	max-width: 100%;
-	;
-	background: url("../images/Jobs.jpg") no-repeat center center;
-	background-size: cover;
-	transform: translate(0%, -30%);
-}
 
 .open-jobs {
 	display: flex;
@@ -370,18 +356,11 @@ i {
 	background-color: #00838e;
 }
 
+.card-jobs {
+    text-align: center;
+}
 
 /* Contact Section */
-
-.contact-img-inner {
-	margin: 10% auto;
-	height: 100vh;
-	max-width: 100%;
-	;
-	background: url("../images/Contact-us.jpg") no-repeat center center;
-	background-size: cover;
-	transform: translate(0%, -30%);
-}
 
 #map {
 	width: 50%;
@@ -396,6 +375,7 @@ i {
 .contact {
 	display: flex;
 	flex-flow: column;
+    margin: 20px 0;
 }
 
 .contact p {
@@ -409,3 +389,123 @@ tbody tr td {
 th {
 	text-align: left;
 }
+
+.form-container {
+    display: flex;
+    justify-content: center;
+}
+
+.contact-form {
+    border-radius: 5px;
+    margin-top: 20px;
+    padding: 20px 15px;
+}
+
+/* Media Queries */
+
+@media only screen and (max-width: 300px) {
+    input, textarea, select {
+        max-width: 200px;
+        margin: 5px 0;
+    }
+
+    .jumbotron-fluid {
+        display: none;
+    }
+}
+
+@media only screen and (max-width: 767px) {
+    .media-padding {
+        padding-top: 20px;
+        text-align: center;
+    }
+
+    .quote-container {
+        padding-bottom: 40px;
+    }
+
+    input, textarea, select {
+        width: 290px;
+        margin: 5px 0;
+    }
+
+}
+
+@media only screen and (min-width: 768px) {
+    
+    .media-padding {
+        padding-top: 40px;
+    }
+    .mobile-reverse {
+        /* display: flex; */
+        flex-direction: row-reverse;
+    }
+
+    .lastn {
+        display: flex;
+        justify-content: flex-start;
+    }
+
+    .firstn {
+        display: flex;
+        justify-content: flex-end;
+    }
+
+    #lname, #fname {
+        width: 223px;
+    }
+
+    #lname {
+        margin-left: 2px;
+    }
+
+    #fname {
+        margin-right: 2px;
+    }
+
+    input, textarea, select {
+        width: 450px;
+        margin: 5px 0;
+    }
+
+}
+
+@media only screen and (min-width: 992px) {
+
+    /* Interactive Menu/ Menu Display*/
+
+    #starters {
+        display: flex;
+    }
+
+    #starters:target {
+        display: flex;
+    }
+
+    #salads {
+        display: none;
+    }
+
+    #salads:target {
+        display: flex;
+    }
+
+    #burgers {
+        display: none;
+    }
+
+    #burgers:target {
+        display: flex;
+    }
+
+    #desserts {
+        display: none;
+    }
+
+    #desserts:target {
+        display: flex;
+    }
+
+
+}
+
