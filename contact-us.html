@@ -10,11 +10,9 @@
 
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous" type="text/css" />
 
-    <!-- bootstrap JS library -->
+    <!-- Font Styling -->
 
-    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+    <link href="https://fonts.googleapis.com/css?family=Ibarra+Real+Nova:400,600,700|Roboto:400,500,700,900&display=swap" rel="stylesheet">
 
     <!-- Font Awesome -->
 
@@ -32,7 +30,7 @@
 
     <link href="assets/images/BurgerLogo.png" rel="shortcut icon" type="image/png">
 
-    <title>Burger House</title>
+    <title>Burger House - Contact Us</title>
 
 </head>
 
@@ -60,9 +58,6 @@
                                 <a class="nav-link" href="menu.html"><i class="fas fa-hamburger"></i> Menu</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link" href="jobs.html"><i class="fas fa-tshirt"></i> Jobs</a>
-                            </li>
-                            <li class="nav-item">
                                 <a class="nav-link active" href="contact-us.html"><i class="fas fa-thumbtack"></i> Find Us <span class="sr-only">(current)</span></a>
                             </li>
                         </ul>
@@ -76,194 +71,187 @@
     <!-- Main Content Section -->
 
     <div class="content">
-        <main>
-            <div class="container-fluid px-0">
+        <div class="container-fluid">
 
-                <!-- Hero Image -->
-                <div class="row">
-                    <div class="col-md-12">
-                        <div class="header-img-outer">
-                            <div class="contact-img-inner"></div>
-                        </div>
-                        <div class=" jumbotron-fluid">
-                            <div class="container-fluid" id="cover-text">
-                                <h1 class="display-4">Get in Touch</h1>
-                                <p class="lead">Looking to book a table or speak to us about something else?</p>
-                            </div>
+            <!-- Hero Image -->
+            <div class="row">
+                <div class="col-md-12 img-container">
+                    <div class="header-img-outer">
+                        <div class="contact-image cover-image"></div>
+                    </div>
+                    <div class="jumbotron-fluid">
+                        <div class="container-fluid form" id="cover-text">
+                            <h1 class="display-4">Get in Touch</h1>
+                            <p class="lead">If you would like to speak to us then please use the details below</p>
                         </div>
                     </div>
-                </div>
-
-                <!-- Page break -->
-
-                <div class="container-fluid">
-                    <div class="row">
-                        <div class="col-md-12" style="padding: 0;">
-                            <div class="cont-break">
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="container-fluid">
-                        <div class="row">
-                            <div class="col-md-12 map-container">
-                                <div id="map">
-                                </div>
-
-                                <script>
-                                    // Initialize and add the map
-                                    function initMap() {
-                                        // The location of Uluru
-                                        var uluru = {
-                                            lat: 51.235172,
-                                            lng: -0.573793
-                                        };
-                                        // The map, centered at Uluru
-                                        var map = new google.maps.Map(
-                                            document.getElementById('map'), {
-                                                zoom: 4,
-                                                center: uluru
-                                            });
-                                        // The marker, positioned at Uluru
-                                        var marker = new google.maps.Marker({
-                                            position: uluru,
-                                            map: map
-                                        });
-                                    }
-                                </script>
-                                <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyASEiU2syRMTpCzuRJX1HpScxXs7A_gvGo&callback=initMap">
-                                </script>
-                            </div>
-                        </div>
-                    </div>
-
-                   
-                    <div class="row">
-                        <div class="col-md-12" style="padding: 0;">
-                            <div class="cont-break">
-                            </div>
-                        </div>
-                    </div>
-
-                    <!-- Contact Details -->
-
-                    <div class="container-fluid">
-                        <div class="row">
-                            <div class="col-md-6">
-                                <div class="container contact">
-                                    <p><i class="fas fa-phone"></i>Call us: 01483 123 456</p>
-                                    <p><i class="fas fa-envelope-open-text"></i>Email us: contact@burger-house.co.uk</p>
-                                    <p><i class="fas fa-map-marker-alt"></i>Find us: 3 Quarry, Street, Guildford, Surrey, GU1 3TY</p>
-                                </div>
-                            </div>
-                            <div class="col-md-6">
-                                
-                                <div class="container contact">
-                                    <table class="table-text">
-                                        <thead>
-                                            <tr>
-                                                <th>Opening Days</th>
-                                                <th>Opening Times</th>
-                                            </tr>
-                                        </thead>
-                                        <tbody>
-                                            <tr>
-                                                <td>Monday - Thursday</td>
-                                                <td>12pm - 10pm</td>
-                                            </tr>
-                                            <tr>
-                                                <td>Friday</td>
-                                                <td>12pm - 11pm</td>
-                                            </tr>
-                                            <tr>
-                                                <td>Saturday</td>
-                                                <td>11:30am - Midnight</td>
-                                            </tr>
-                                            <tr>
-                                                <td>Sunday</td>
-                                                <td>12:30pm - 8pm</td>
-                                            </tr>
-                                        </tbody>
-                                    </table>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-
-                    <!-- Contact Form -->
-
-                    <div class="container-fluid">
-                        <div class="row">
-                            <div class="col-md-12">
-                                
-                                <form action="PUSH">
-                                    <input type="email" name="john.burger@burger-house.com" id="contact-form">
-                                </form>
-                            </div>
-                        </div>
-                    </div>
-
                 </div>
             </div>
-        </main>
+        </div>
+        <!-- </div> -->
+
+        <!-- Contact Details -->
+
+        <div class="container-fluid mid-bc">
+            <div class="row">
+                <div class="col-md-6">
+                    <div class="container contact contact-details">
+                        <p><i class="fas fa-phone"></i>Call us: 01483 123 456</p>
+                        <p><i class="fas fa-envelope-open-text"></i>Email us: contact@burger-house.co.uk</p>
+                        <p><i class="fas fa-map-marker-alt"></i>Find us: 3 Quarry, Street, Guildford, Surrey, GU1 3TY</p>
+                    </div>
+                </div>
+                <div class="col-md-6">
+
+                    <div class="container contact">
+                        <table class="table-text">
+                            <thead>
+                                <tr>
+                                    <th>Opening Days</th>
+                                    <th>Opening Times</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>Monday - Thursday</td>
+                                    <td>12pm - 10pm</td>
+                                </tr>
+                                <tr>
+                                    <td>Friday</td>
+                                    <td>12pm - 11pm</td>
+                                </tr>
+                                <tr>
+                                    <td>Saturday</td>
+                                    <td>11:30am - Midnight</td>
+                                </tr>
+                                <tr>
+                                    <td>Sunday</td>
+                                    <td>12:30pm - 8pm</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+            </div>
         </div>
 
-        <!-- End Main Content Section -->
+        <!-- Contact Form -->
 
-        <!-- Footer Section -->
-        <footer class="footer">
-            <div class="container-fluid">
-                <div class="row">
-                    <div class="col-md-6">
-                        <div class="container-fluid foot-links">
-                            <h5>Useful Links</h5>
-                            <a href="about-us.html">About Us</a>
-                            <a href="contact-us.html">Find Us</a>
-                            <a href="jobs.html">Join Our Team</a>
-                            <a href="#" target="_blank">Privacy Policy</a>
+        <div class="container-fluid center">
+            <div class="row no-gutters">
+                <div class="col-sm-0 col-6-md"></div>
+                <div class="col-sm-12 col-6-md">
+                <div class="container mid-bc contact-form">
+                    <h2>Want us to get in touch with you?</h2>
+                    <p>Use the form below and we will contact you</p>
+                    <form>
+                        <div class="row no-gutters">
+                            <div class="col-sm-12 col-md-6 firstn center">
+                                <input type="text" placeholder="First Name" name="fname" id="fname" required>
+                            </div>
+                            <div class="col-sm-12 col-md-6 lastn center">
+                                <input type="text" placeholder="Last Name" name="lname" id="lname" required>
+                            </div>
                         </div>
+                        <div class="row no-gutters">
+                            <div class="col-md-12 center">
+                                <input type="email" placeholder="Email Address" name="email" id="email" required>
+                            </div>
+                        </div>
+                        <div class="row no-gutters">
+                            <div class="col-md-12 center">
+                                <input type="tel" placeholder="Contact Number" name="number" id="number" required>
+                            </div>
+                        </div>
+                        <div class="row no-gutters">
+                            <div class="col-md-12 center">
+                                <select id="reason" name="reason" required>
+                                    <option value="booking">I want to book a table</option>
+                                    <option value="change">I want to change my booking</option>
+                                    <option value="good">I've had a great experience</option>
+                                    <option value="bad">I've had a bad experience</option>
+                                    <option value="job">Enquiring about open vacancy</option>
+                                    <option value="other">I want to talk about something else</option>
+                                </select>
+                            </div>
+                        </div>
+                        <div class="row no-gutters">
+                            <div class="col-md-12 center">
+                                <textarea id="information" name="addInfo" rows="5" cols="40" placeholder="Let us know of anything extra you want to add or your booking requirements"></textarea>
+                            </div>
+                        </div>
+                        <div class="row no-gutters">
+                            <div class="col-md-12 center">
+                                <input type="submit" value="Get In Touch" class="btn btn-info">
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+            <div class="col-sm-0 col-6-md"></div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Footer Section -->
+
+    <footer class="footer">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-md-6">
+                    <div class="container-fluid foot-links">
+                        <a href="about-us.html">About Us</a>
+                        <a href="contact-us.html">Find Us</a>
+                        <a href="jobs.html">Join Our Team</a>
+                        <a href="#" target="_blank">Privacy Policy</a>
                     </div>
-                    <div class="col-md-6">
-                        <div class="container-fluid">
-                            <h5>Share us with your friends!</h5>
-                            <ul class="list-inline social-links">
-                                <li class="list-inline-item">
-                                    <a target="_blank" href="https://www.facebook.com">
-                                        <i class="fab fa-facebook" aria-hidden="true"></i>
-                                        <span class="sr-only">Facebook link</span>
-                                    </a>
-                                </li>
-                                <li class="list-inline-item">
-                                    <a target="_blank" href="https://www.twitter.com">
-                                        <i class="fab fa-twitter" aria-hidden="true"></i>
-                                        <span class="sr-only">Twitter link</span>
-                                    </a>
-                                </li>
-                                <li class="list-inline-item">
-                                    <a target="_blank" href="https://www.inkedin.com">
-                                        <i class="fab fa-linkedin" aria-hidden="true"></i>
-                                        <span class="sr-only">LinkedIn link</span>
-                                    </a>
-                                </li>
-                                <li class="list-inline-item">
-                                    <a target="_blank" href="https://www.pinterest.co.uk/">
-                                        <i class="fab fa-pinterest" aria-hidden="true"></i>
-                                        <span class="sr-only">Pinterest link</span>
-                                    </a>
-                                </li>
-                                <li class="list-inline-item">
-                                    <a target="_blank" href="https://www.instagram.com">
-                                        <i class="fab fa-instagram" aria-hidden="true"></i>
-                                        <span class="sr-only">Instagram link</span>
-                                    </a>
-                                </li>
-                            </ul>
-                        </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="container-fluid">
+                        <ul class="list-inline social-links">
+                            <li class="list-inline-item">
+                                <a target="_blank" href="https://www.facebook.com">
+                                    <i class="fab fa-facebook" aria-hidden="true"></i>
+                                    <span class="sr-only">Facebook link</span>
+                                </a>
+                            </li>
+                            <li class="list-inline-item">
+                                <a target="_blank" href="https://www.twitter.com">
+                                    <i class="fab fa-twitter" aria-hidden="true"></i>
+                                    <span class="sr-only">Twitter link</span>
+                                </a>
+                            </li>
+                            <li class="list-inline-item">
+                                <a target="_blank" href="https://www.inkedin.com">
+                                    <i class="fab fa-linkedin" aria-hidden="true"></i>
+                                    <span class="sr-only">LinkedIn link</span>
+                                </a>
+                            </li>
+                            <li class="list-inline-item">
+                                <a target="_blank" href="https://www.pinterest.co.uk/">
+                                    <i class="fab fa-pinterest" aria-hidden="true"></i>
+                                    <span class="sr-only">Pinterest link</span>
+                                </a>
+                            </li>
+                            <li class="list-inline-item">
+                                <a target="_blank" href="https://www.instagram.com">
+                                    <i class="fab fa-instagram" aria-hidden="true"></i>
+                                    <span class="sr-only">Instagram link</span>
+                                </a>
+                            </li>
+                        </ul>
                     </div>
                 </div>
             </div>
-        </footer>
-        <!-- End Footer Section -->
+        </div>
+    </footer>
+
+    <!-- bootstrap JS library -->
+
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+
 </body>
 
 </html>
