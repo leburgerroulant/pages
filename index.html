@@ -10,11 +10,9 @@
 
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous" type="text/css" />
 
-    <!-- bootstrap JS library -->
+    <!-- Font Styling -->
 
-    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+    <link href="https://fonts.googleapis.com/css?family=Ibarra+Real+Nova:400,600,700|Roboto:400,500,700,900&display=swap" rel="stylesheet">
 
     <!-- Font Awesome -->
 
@@ -60,10 +58,7 @@
                                 <a class="nav-link" href="menu.html"><i class="fas fa-hamburger"></i> Menu</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link" href="#"><i class="fas fa-tshirt"></i> Jobs</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="#"><i class="fas fa-thumbtack"></i> Find Us</a>
+                                <a class="nav-link" href="contact-us.html"><i class="fas fa-thumbtack"></i> Find Us</a>
                             </li>
                         </ul>
                     </div>
@@ -71,90 +66,72 @@
             </div>
         </div>
     </header>
-    <!-- End Navbar Section -->
 
     <!-- Main Content Section -->
 
     <div class="content">
-        <main>
-            <div class="container-fluid px-0">
-                <!-- Hero Image -->
-                <div class="row">
-                    <div class="col-md-12">
-                        <div class="header-img-outer">
-                            <div class="header-img-inner"></div>
-                        </div>
-                        <div class=" jumbotron-fluid">
-                            <div class="container-fluid" id="cover-text">
-                                <img src="./assets/images/BurgerLogo.png" class="img-responsive" style="max-width: 110px; max-height: 110px; margin: 20px auto;" alt="Burger House Logo">
-
-                                <p class="lead">Home of burgers that simply melt in your mouth.</p>
-                            </div>
-                        </div>
+        <div class="container-fluid">
+            <!-- Hero Image -->
+            <div class="row">
+                <div class="col-md-12 img-container">
+                    <div class="header-img-outer">
+                        <div class="index-image cover-image"></div>
                     </div>
-                </div>
-
-                <!-- Page break -->
-
-                <div class="container-fluid">
-                    <div class="row">
-                        <div class="col-md-12" style="padding: 0;">
-                            <div class="cont-break">
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-                <!-- Mid Section Content -->
-
-                <div class="container-fluid mid-section">
-                    <div class="row front-img-container">
-                        <div class="col-md-4">
-                            <div class="front-imgblock">
-                                <div class="front-img">
-                                    <a href="menu.html"><img src="./assets/images/cheeseburger-and-fries.jpg" alt="Freshly grilled food" /></a>
-                                </div>
-
-                                <div class="front-text">
-                                    <h4>Freshly Grilled To Order</h4>
-                                    <p>All food is freshly made to order and can be made how you like it.</p>
-                                    <a class="btn btn-info" href="menu.html" role="button">View menu</a>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-md-4">
-                            <div class="front-imgblock">
-                                <div class="front-img">
-                                    <a href="#"><img src="./assets/images/restaurant-setting.jpg" alt="Freshly grilled food" /></a>
-                                </div>
-
-                                <div class="front-text">
-                                    <h4>Uniquely Rustic Restaurant</h4>
-                                    <p>We take pride on our quirky restaurant setting that makes you feel at home.</p>
-                                    <a class="btn btn-info" href="contact-us.html" role="button">Get in touch</a>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-md-4">
-                            <div class="front-imgblock">
-                                <div class="front-img">
-                                    <a href="about-us.html"><img src="./assets/images/local-source.jpg" alt="Freshly grilled food" /></a>
-                                </div>
-
-                                <div class="front-text">
-                                    <h4>Locally Sourced Ingredients</h4>
-                                    <p>We source everythings from local farmers ensuring you only get the best.</p>
-                                    <a class="btn btn-info" href="about-us.html" role="button">Find out more</a>
-                                </div>
-                            </div>
+                    <div class="jumbotron-fluid">
+                        <div class="container-fluid cover-text">
+                            <img src="./assets/images/BurgerLogo.png" class="img-responsive jumbo-logo" alt="Burger House Logo">
+                            <p class="lead">Home of burgers that simply melt in your mouth.</p>
                         </div>
                     </div>
                 </div>
             </div>
-        </main>
-    </div>
+        </div>
+        <!-- Mid Section Content -->
 
-    <!-- End Main Content Section -->
+        <div class="container-fluid mid-section mid-bc">
+            <div class="row front-img-container">
+                <div class="col-md-4">
+                    <div class="front-imgblock">
+                        <div class="front-img">
+                            <a href="menu.html"><img src="./assets/images/cheeseburger-and-fries.jpg" alt="Freshly grilled food" /></a>
+                        </div>
+
+                        <div class="front-text">
+                            <h4>Freshly Grilled To Order</h4>
+                            <p>All food is freshly made to order and can be made just how you like it.</p>
+                            <a class="btn btn-info" href="menu.html">View menu</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="front-imgblock">
+                        <div class="front-img">
+                            <a href="contact-us.html"><img src="./assets/images/restaurant-setting.jpg" alt="Freshly grilled food" /></a>
+                        </div>
+
+                        <div class="front-text">
+                            <h4>Uniquely Rustic Restaurant</h4>
+                            <p>We take pride on our quirky restaurant setting that makes you feel at home.</p>
+                            <a class="btn btn-info" href="contact-us.html">Get in touch</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="front-imgblock">
+                        <div class="front-img">
+                            <a href="about-us.html"><img src="./assets/images/local-source.jpg" alt="Freshly grilled food" /></a>
+                        </div>
+
+                        <div class="front-text">
+                            <h4>Locally Sourced Ingredients</h4>
+                            <p>We source everythings from local farmers ensuring you only get the best.</p>
+                            <a class="btn btn-info" href="about-us.html">Find out more</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
 
     <!-- Footer Section -->
     <footer class="footer">
@@ -162,7 +139,6 @@
             <div class="row">
                 <div class="col-md-6">
                     <div class="container-fluid foot-links">
-                        <h5>Useful Links</h5>
                         <a href="about-us.html">About Us</a>
                         <a href="contact-us.html">Find Us</a>
                         <a href="jobs.html">Join Our Team</a>
@@ -171,7 +147,6 @@
                 </div>
                 <div class="col-md-6">
                     <div class="container-fluid">
-                        <h5>Share us with your friends!</h5>
                         <ul class="list-inline social-links">
                             <li class="list-inline-item">
                                 <a target="_blank" href="https://www.facebook.com">
@@ -209,7 +184,13 @@
             </div>
         </div>
     </footer>
-    <!-- End Footer Section -->
+
+    <!-- bootstrap JS library -->
+
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+
 </body>
 
 </html>
