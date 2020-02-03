@@ -74,6 +74,9 @@ a {
 	color: #2f2323;
 }
 
+.cent-text {
+    text-align: center;
+}
 
 /* Navbar Section */
 
@@ -241,14 +244,6 @@ i {
     text-align: center;
 }
 
-#break p {
-	padding-top: 20px;
-}
-
-#break h4 {
-	padding-bottom: 20px;
-}
-
 .button-menu {
     display: flex;
     justify-content: center;
@@ -333,12 +328,24 @@ i {
 .menu-header {
 	margin-top: 20px;
 	margin-bottom: 20px;
+    text-align: center;
 }
 
 .card-header {
 	background-color: #d8f4ef;
 }
 
+.btn-menu {
+    font-size: 2rem;
+    font-weight: 700;
+    color: #145d63;
+    text-decoration: none;
+}
+
+.m-pad {
+    padding-left: 10px;
+    padding-right: 10px;
+}
 
 
 /* Job Section */
@@ -362,15 +369,6 @@ i {
 
 /* Contact Section */
 
-#map {
-	width: 50%;
-	height: 250px;
-}
-
-.map-container {
-	display: flex;
-	justify-content: center;
-}
 
 .contact {
 	display: flex;
@@ -412,6 +410,8 @@ th {
     .jumbotron-fluid {
         display: none;
     }
+    
+   
 }
 
 @media only screen and (max-width: 767px) {
@@ -429,6 +429,10 @@ th {
         margin: 5px 0;
     }
 
+    .tablet {
+        display: none;
+    }
+
 }
 
 @media only screen and (min-width: 768px) {
@@ -437,7 +441,6 @@ th {
         padding-top: 40px;
     }
     .mobile-reverse {
-        /* display: flex; */
         flex-direction: row-reverse;
     }
 
@@ -468,11 +471,23 @@ th {
         margin: 5px 0;
     }
 
+    .tablet {
+        display: none;
+    }
+
 }
 
 @media only screen and (min-width: 992px) {
 
     /* Interactive Menu/ Menu Display*/
+
+    .mobile {
+        display: none;
+    }
+
+    .tablet {
+        display: flex;
+    }
 
     #starters {
         display: flex;
