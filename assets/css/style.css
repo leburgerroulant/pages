@@ -326,13 +326,13 @@ i {
 }
 
 .menu-header {
-	margin-top: 20px;
 	margin-bottom: 20px;
     text-align: center;
+    background-color: #ece8e8;
 }
 
 .card-header {
-	background-color: #d8f4ef;
+	background-color: #e0e0e0;
 }
 
 .btn-menu {
@@ -486,38 +486,6 @@ th {
     }
 
     .tablet {
-        display: flex;
-    }
-
-    #starters {
-        display: flex;
-    }
-
-    #starters:target {
-        display: flex;
-    }
-
-    #salads {
-        display: none;
-    }
-
-    #salads:target {
-        display: flex;
-    }
-
-    #burgers {
-        display: none;
-    }
-
-    #burgers:target {
-        display: flex;
-    }
-
-    #desserts {
-        display: none;
-    }
-
-    #desserts:target {
         display: flex;
     }
 
