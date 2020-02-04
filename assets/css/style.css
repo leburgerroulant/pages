@@ -9,7 +9,6 @@ body {
 body {
 	display: flex;
 	flex-direction: column;
-	background-color: black;
 	opacity: 0.9;
 }
 
@@ -215,7 +214,7 @@ i {
 
 .mid-section {
     padding: 0;
-    
+    background-color: #bdbdbd;
     padding: 20px;
     margin-bottom: 20px;
 }
@@ -279,11 +278,11 @@ i {
 .front-text {
     padding-top: 20px;
     text-align: center;
-    font-weight: 600;
+    font-weight: 400;
 }
 
 .front-text h4 {
-    font-weight: 700;
+    font-weight: 600;
 }
 
 
@@ -326,9 +325,31 @@ i {
 }
 
 .menu-header {
-	margin-bottom: 20px;
+    margin-bottom: 20px;
+    padding-bottom: 20px;
     text-align: center;
-    background-color: #ece8e8;
+}
+
+.b-top {
+    border-top: black dotted 5px;
+    padding-top: 20px;
+}
+
+.b-bot {
+    border-bottom: black dotted 5px;
+}
+
+.food-item {
+    padding-bottom: 15px;
+}
+
+.menu-top{
+    display: flex;
+    justify-content: flex-end;
+}
+
+.placement i {
+    color: #f4483a;
 }
 
 .card-header {
@@ -437,9 +458,15 @@ th {
 
 @media only screen and (min-width: 768px) {
     
-    .media-padding {
-        padding-top: 40px;
+    .no-gutters .media-padding {
+        padding-left: 20px;
+        top: 150px;
     }
+
+    .quote-divider {
+        padding: 150px;
+    }
+    
     .mobile-reverse {
         flex-direction: row-reverse;
     }
@@ -488,7 +515,7 @@ th {
     .tablet {
         display: flex;
     }
-
+    
 
 }
 
