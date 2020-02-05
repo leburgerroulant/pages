@@ -419,7 +419,19 @@ th {
 
 /* Media Queries */
 
-@media (min-width: 576px) {
+@media only screen and (max-width: 300px) {
+	input,
+	textarea,
+	select {
+		max-width: 200px;
+		margin: 5px 0;
+	}
+	.jumbotron-fluid {
+		display: none;
+	}
+}
+
+@media only screen and (max-width: 767px) {
 	.media-padding {
 		padding-top: 20px;
 		text-align: center;
