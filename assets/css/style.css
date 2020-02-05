@@ -326,7 +326,7 @@ i {
 /* Menu  */
 
 .center .nav-item .menu-btn {
-    margin: 10px 20px;
+	margin: 10px 20px;
 }
 
 .center .nav-item {
@@ -362,11 +362,6 @@ i {
 
 .food-item {
 	padding-bottom: 15px;
-}
-
-.menu-top {
-	display: flex;
-	justify-content: flex-end;
 }
 
 .placement i {
@@ -480,6 +475,10 @@ th {
 	.tablet {
 		display: none;
 	}
+	.menu-top {
+		display: flex;
+		justify-content: center;
+	}
 }
 
 @media only screen and (min-width: 768px) {
@@ -520,6 +519,10 @@ th {
 	.tablet {
 		display: none;
 	}
+	.menu-top {
+		display: flex;
+		justify-content: center;
+	}
 }
 
 @media only screen and (min-width: 992px) {
@@ -529,5 +532,9 @@ th {
 	}
 	.tablet {
 		display: flex;
+	}
+	.menu-top {
+		display: flex;
+		justify-content: flex-end;
 	}
 }
