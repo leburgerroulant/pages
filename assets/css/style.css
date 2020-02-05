@@ -10,7 +10,7 @@ body {
 	display: flex;
 	flex-direction: column;
 	opacity: 0.9;
-    overflow-x: hidden;
+	overflow-x: hidden;
 }
 
 .content {
@@ -27,7 +27,6 @@ footer {
 	display: flex;
 	justify-content: center;
 }
-
 
 /* Font Styling */
 
@@ -56,9 +55,7 @@ a {
 
 .cover-text p {
 	font-weight: 300;
-	color: #ffffffd1;
-    color: #fff; 
-    /* Backup color for Microsoft Edge */
+	color: #fff;
 }
 
 .veggie {
@@ -81,7 +78,6 @@ a {
 .cent-text {
 	text-align: center;
 }
-
 
 /* Navbar Section */
 
@@ -114,7 +110,6 @@ i {
 	height: 90px;
 }
 
-
 /* Navbar & Button Link Styling */
 
 .nav-link {
@@ -129,7 +124,6 @@ i {
 	color: #f4483a;
 }
 
-
 /* Button Styling */
 
 .menu-btn {
@@ -139,8 +133,8 @@ i {
 }
 
 .menu-btn:hover {
-    color: #f4483a;
-    font-weight: 600;
+	color: #f4483a;
+	font-weight: 600;
 }
 
 /* Footer Section */
@@ -163,7 +157,6 @@ i {
 .foot-links li a i {
 	padding: 0px 5px;
 }
-
 
 /* Section/Hero Image & Text Banner Styling */
 
@@ -199,7 +192,6 @@ i {
 	position: relative;
 }
 
-
 /* Section/Hero Images */
 
 .index-image {
@@ -210,13 +202,12 @@ i {
 .about-image {
 	background-image: url("../images/two-brothers.jpg");
 	transform: translate(0%, -30%);
-    -moz-transform: translate(0%, -40%);
 }
 
 .menu-image {
 	background-image: url("../images/Burgers-menu.jpg");
 	transform: translate(0%, -30%);
-    -moz-transform: translate(0%, -40%);
+	-moz-transform: translate(0%, -40%)
 }
 
 .contact-image {
@@ -228,7 +219,6 @@ i {
 	background-image: url("../images/Jobs.jpg");
 	transform: translate(0%, -20%);
 }
-
 
 /* Content Sections */
 
@@ -243,16 +233,7 @@ i {
 	background-color: #bdbdbd;
 }
 
-
-/* Universal Breaks & Bottom Button */
-
-.cont-break {
-	min-height: 5px;
-	max-height: 10px;
-	background-color: #d8f4ef;
-	margin-top: 20px;
-	margin-bottom: 20px;
-}
+/* Universal Holders */
 
 .quote-holder {
 	background-color: #e0e0e0;
@@ -273,7 +254,7 @@ i {
 }
 
 
-/* Rest of Content */
+/* Index */
 
 .cover-text h1 {
 	font-size: 2rem;
@@ -321,19 +302,8 @@ i {
 	margin-bottom: 20px;
 }
 
-#c-quote {
-	background-color: #fff;
-	border-radius: 5px;
-}
 
-.front-page {
-	background-color: #d8f4ef;
-	border-radius: 5px;
-	margin-bottom: 20px;
-}
-
-
-/* Menu  */
+/* Menu Section  */
 
 .center .nav-item .menu-btn {
 	margin: 10px 20px;
@@ -447,22 +417,9 @@ th {
 	padding: 20px 15px;
 }
 
-
 /* Media Queries */
 
-@media only screen and (max-width: 300px) {
-	input,
-	textarea,
-	select {
-		max-width: 200px;
-		margin: 5px 0;
-	}
-	.jumbotron-fluid {
-		display: none;
-	}
-}
-
-@media only screen and (max-width: 767px) {
+@media (min-width: 576px) {
 	.media-padding {
 		padding-top: 20px;
 		text-align: center;
@@ -488,7 +445,7 @@ th {
 @media only screen and (min-width: 768px) {
 	.no-gutters .media-padding {
 		padding-left: 20px;
-		top: 150px;
+		top: 50px;
 	}
 	.quote-divider {
 		padding: 150px;
@@ -531,6 +488,10 @@ th {
 
 @media only screen and (min-width: 992px) {
 	/* Interactive Menu/ Menu Display*/
+	.no-gutters .media-padding {
+		padding-left: 20px;
+		top: 100px;
+	}
 	.mobile {
 		display: none;
 	}
