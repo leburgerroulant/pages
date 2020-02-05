@@ -41,6 +41,10 @@ As a customer, we want to be able to navigate easily to the various sections of 
 
 ### Features Left to Implement
 
+I want to add google maps to the website however; this was implemented during the initial development stage and removed. The reason for this is google maps requires a paid API key in order to correctly show the map on your website without an error message pop-up. It was felt that showing the map and having this message on it takes away an element of professionalism away from the website.
+
+I want to add a Javascript booking form onto the contact page that will allow a user to interact with it and place a booking online for their relevant party size. 
+
 ## Testing
 
 ## Deployment
