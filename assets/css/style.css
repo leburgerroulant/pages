@@ -325,8 +325,8 @@ i {
 
 /* Menu  */
 
-.space-around {
-	justify-content: space-around;
+.center .nav-item .menu-btn {
+    margin: 10px 20px;
 }
 
 .center .nav-item {
