@@ -1,3 +1,7 @@
+<h1 align="center">
+  <a href="https://andy-osborne.github.io/Burger-House/index.html" target="_blank"><img src="https://imgur.com/tGqr1Se" alt="Burger House logo"/></a>
+</h1>
+
 # Burger House
 Milestone One Project: User-Centric Frontend Development - Code Institute 
 
