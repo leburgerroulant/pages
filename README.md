@@ -130,7 +130,7 @@ Navigating around the website
 
   - The navbar in the header section contains links to four sections which are Home, About Us, Menu, and Find Us as 95% of the users who visit the website are only trying to find one of these four things.
 
-  - The footer contains links to About Us, Find Us, Join Our Team (Jobs section) and Privacy Policy (This opens in a new window as it has not been implemented).
+  - The footer contains links to About Us, Find Us, Join Our Team (Jobs section) and Privacy Policy (this link has been disabled as there is no content for it).
 
   - The logo in the top left of the website is hyperlinked to the Home page to follow the general rule for websites, so a user can click that and return to the front page.
 
