@@ -266,7 +266,9 @@ The Burger House logo was created by Rebecca Catlin for me to use for this proje
 
 The carousel feature was modelled after the bootstrap component and I would like to thank Sonar Systems and their YouTube tutorial [video](https://www.youtube.com/watch?v=n8ItscKLf7s) for understanding on how to implement it correctly. The overall carousel was modiied by me to allow the use of cards within the carousel itself and have a text box to display the job role, blurb and button.  
 
-The sticky footer was created using the Flexbox technique tutorial provided by Css-tricks [site](https://css-tricks.com/couple-takes-sticky-footer/). This assisted me with coding the footer so it always stuck to the bottom of the webpage.
+The sticky footer was created using the Flexbox technique tutorial provided by [Css-tricks](https://css-tricks.com/couple-takes-sticky-footer/). This assisted me with coding the footer so it always stuck to the bottom of the webpage.
+
+The idea of creating the CSS rule for disabling the Privacy Policy link was from reading a post by [Css-tricks](https://css-tricks.com/almanac/properties/p/pointer-events/).
 
 The CSS code used to create the interactive menu section was based around the code example provided on [site](https://alligator.io/css/css-only-click-handler/) although this was heavily modified to fit the purpose of creating a menu.
 
