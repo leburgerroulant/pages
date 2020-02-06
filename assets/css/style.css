@@ -91,6 +91,11 @@ a {
 	color: #00838e;
 }
 
+.navbar-toggler:focus {
+    border: none;
+    outline: none;
+}
+
 .navbar-toggler i {
 	font-size: 2rem;
 }
