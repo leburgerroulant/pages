@@ -30,6 +30,7 @@ footer {
 	justify-content: center;
 }
 
+
 /* Font Styling */
 
 h1,
@@ -81,6 +82,7 @@ a {
 	text-align: center;
 }
 
+
 /* Navbar Section */
 
 .menu-bar {
@@ -92,8 +94,8 @@ a {
 }
 
 .navbar-toggler:focus {
-    border: none;
-    outline: none;
+	border: none;
+	outline: none;
 }
 
 .navbar-toggler i {
@@ -117,6 +119,7 @@ i {
 	height: 90px;
 }
 
+
 /* Navbar & Button Link Styling */
 
 .nav-link {
@@ -130,6 +133,11 @@ i {
 .active {
 	color: #f4483a;
 }
+
+.disabled {
+	pointer-events: none
+}
+
 
 /* Section/Hero Images */
 
@@ -158,6 +166,7 @@ i {
 	background-image: url("../images/Jobs.jpg");
 	transform: translate(0%, -25%);
 }
+
 
 /* Section/Hero Image & Text Banner Styling */
 
@@ -193,6 +202,7 @@ i {
 	position: relative;
 }
 
+
 /* Button Styling */
 
 .menu-btn {
@@ -205,6 +215,7 @@ i {
 	color: #f4483a;
 	font-weight: 600;
 }
+
 
 /* Footer Section */
 
@@ -227,6 +238,7 @@ i {
 	padding: 0px 5px;
 }
 
+
 /* Content Sections */
 
 .mid-section {
@@ -239,6 +251,7 @@ i {
 .mid-bc {
 	background-color: #bdbdbd;
 }
+
 
 /* Universal Holders */
 
@@ -423,6 +436,7 @@ th {
 	margin-top: 20px;
 	padding: 20px 15px;
 }
+
 
 /* Media Queries */
 
